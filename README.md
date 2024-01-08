@@ -1,4 +1,4 @@
-# Towards Efficient and High-Quality Bandwidth Extension with Parallel Amplitude-Phase Prediction
+# Towards High-Quality and Efficient Speech Bandwidth Extension with Parallel Amplitude and Phase Prediction
 ### Ye-Xin Lu, Yang Ai, Zhen-Hua Ling
 
 **Abstract:** 
