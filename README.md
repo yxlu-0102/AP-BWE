@@ -1,5 +1,5 @@
 # Towards High-Quality and Efficient Speech Bandwidth Extension with Parallel Amplitude and Phase Prediction
-### Ye-Xin Lu, Yang Ai, Zhen-Hua Ling
+### Ye-Xin Lu, Yang Ai, Hui-Peng Du, Zhen-Hua Ling
 
 **Abstract:** 
 Speech bandwidth extension (BWE) refers to widening the frequency bandwidth range of speech signals, enhancing the speech quality towards brighter and fuller.
