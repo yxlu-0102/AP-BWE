@@ -15,7 +15,7 @@ Notably, to our knowledge, AP-BWE is the first to achieve the direct extension o
 Audio samples can be found [here](http://yxlu-0102.github.io/AP-BWE).
 
 ## Pre-requisites
-0. Python >= 3.6.
+0. Python >= 3.9.
 0. Clone this repository.
 0. Install python requirements. Please refer [requirements.txt](requirements.txt).
 0. Download datasets
@@ -25,7 +25,7 @@ Audio samples can be found [here](http://yxlu-0102.github.io/AP-BWE).
        cd VCTK-Corpus-0.92
        python flac2wav.py
        ```
-    1. Move all the trimmed training files following [training.txt](VCTK-Corpus-0.92/training.txt) to [wav48/train](wav48/train), and move all the untrimmed test files following [test.txt](VCTK-Corpus-0.92/test.txt) to [wav48/test](wav48/test)
+    1. Move all the trimmed training files following [training.txt](VCTK-Corpus-0.92/training.txt) to [wav48/train](wav48/train), and move all the untrimmed test files following [test.txt](VCTK-Corpus-0.92/test.txt) to [wav48/test](wav48/test).
 
 ## Training
 ```
