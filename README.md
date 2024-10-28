@@ -48,7 +48,7 @@ python inference_16k.py --checkpoint_file ../checkpoints/2kto16k/g_2kto16k --out
 ```
 
 ## Model Structure
-![model](Figures/model.png)
+![model](Figures/model.pdf)
 
 ## Comparison with other speech BWE methods
 ![comparison](Figures/table.png)
