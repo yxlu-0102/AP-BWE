@@ -51,8 +51,15 @@ python inference_16k.py --checkpoint_file ../checkpoints/2kto16k/g_2kto16k --out
 ![model](Figures/model.png)
 
 ## Comparison with other speech BWE methods
-![comparison](Figures/table_16k.png)
-![comparison](Figures/table_48k.png)
+### 2k/4k/8kHz to 16kHz
+<p align="center">
+<img src="Figures/table_16k.png" alt="comparison" width="80%"/>
+</p>
+
+### 8k/12k/16/24kHz to 16kHz
+<p align="center">
+<img src="Figures/table_48k.png" alt="comparison" width="100%"/>
+</p>
 
 ## Acknowledgements
 We referred to [HiFi-GAN](https://github.com/jik876/hifi-gan) and [NSPP](https://github.com/YangAi520/NSPP) to implement this.
