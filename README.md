@@ -44,6 +44,7 @@ CUDA_VISIBLE_DEVICES=0 python train_16k.py --config ../configs/config_2kto16k.js
 ```
 cd inference
 python inference_16k.py --checkpoint_file [generator checkpoint file path]
+python inference_48k.py --checkpoint_file [generator checkpoint file path]
 ```
 You can download the [pretrained weights](https://drive.google.com/drive/folders/1IIYTf2zbJWzelu4IftKD6ooHloJ8mnZF?usp=share_link) we provide and move all the files to the `checkpoints` directory.
 <br>
