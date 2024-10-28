@@ -15,10 +15,17 @@ Notably, to our knowledge, AP-BWE is the first to achieve the direct extension o
 Audio samples can be found [here](http://yxlu-0102.github.io/AP-BWE).
 
 ## Pre-requisites
-1. Python >= 3.6.
-2. Clone this repository.
-3. Install python requirements. Please refer `requirements.txt`.
-4. Download and extract the [VCTK-0.92 dataset](https://datashare.ed.ac.uk/handle/10283/3443).
+0. Python >= 3.6.
+0. Clone this repository.
+0. Install python requirements. Please refer [requirements.txt](requirements.txt).
+0. Download datasets
+    1. Download and extract the [VCTK-0.92 dataset](https://datashare.ed.ac.uk/handle/10283/3443), and move its `wav48` directory into `VCTK-Corpus-0.92` and rename it as `wav48_origin`.
+    1. Trim the silence of the dataset, and the trimmed files will be saved to `wav48_silence_trimmed`.
+       ```
+       cd VCTK-Corpus-0.92
+       python flac2wav.py
+       ```
+    1. Move all the trimmed training file following `training.txt` to `wav48/train`, and move all the untrimmed test files following `test.txt` to `wav48/test`
 
 ## Training
 ```
