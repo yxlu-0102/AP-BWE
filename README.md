@@ -25,7 +25,7 @@ Notably, to our knowledge, AP-BWE is the first to achieve the direct extension o
        cd VCTK-Corpus-0.92
        python flac2wav.py
        ```
-    1. Move all the trimmed training files following [training.txt](VCTK-Corpus-0.92/training.txt) to [wav48/train](wav48/train), and move all the untrimmed test files following [test.txt](VCTK-Corpus-0.92/test.txt) to [wav48/test](wav48/test).
+    1. Move all the trimmed training files from `wav48_silence_trimmed` to [wav48/train](wav48/train) following the indexes in [training.txt](VCTK-Corpus-0.92/training.txt), and move all the untrimmed test files from  `wav48_origin` to [wav48/test](wav48/test) following the indexes in [test.txt](VCTK-Corpus-0.92/test.txt).
 
 ## Training
 ```
