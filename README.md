@@ -25,7 +25,7 @@ Audio samples can be found [here](http://yxlu-0102.github.io/AP-BWE).
        cd VCTK-Corpus-0.92
        python flac2wav.py
        ```
-    1. Move all the trimmed training file following `training.txt` to `wav48/train`, and move all the untrimmed test files following `test.txt` to `wav48/test`
+    1. Move all the trimmed training file following [training.txt](VCTK-Corpus-0.92/training.txt) to `wav48/train`, and move all the untrimmed test files following `test.txt` to `wav48/test`
 
 ## Training
 ```
