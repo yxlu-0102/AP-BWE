@@ -11,8 +11,8 @@ Experimental results demonstrate that our proposed AP-BWE achieves state-of-the-
 In terms of generation efficiency, due to the all-convolutional architecture and all-frame-level operations, the proposed AP-BWE can generate 48 kHz waveform samples 292.3 times faster than real-time on a single RTX 4090 GPU and 18.1 times faster than real-time on a single CPU.
 Notably, to our knowledge, AP-BWE is the first to achieve the direct extension of the high-frequency phase spectrum, which is beneficial for improving the effectiveness of existing BWE methods.
 
-**We will provide our implementation as open source in this repository after paper acceptance.**
-Audio samples can be found [here](http://yxlu-0102.github.io/AP-BWE).
+**We provide our implementation as open source in this repository. Audio samples can be found at the [demo website](http://yxlu-0102.github.io/AP-BWE).**
+
 
 ## Pre-requisites
 0. Python >= 3.9.
