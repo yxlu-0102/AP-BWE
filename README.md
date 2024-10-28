@@ -48,10 +48,11 @@ python inference_16k.py --checkpoint_file ../checkpoints/2kto16k/g_2kto16k --out
 ```
 
 ## Model Structure
-![model](Figures/model.pdf)
+![model](Figures/model.png)
 
 ## Comparison with other speech BWE methods
-![comparison](Figures/table.png)
+![comparison](Figures/table_16k.png)
+![comparison](Figures/table_48k.png)
 
 ## Acknowledgements
 We referred to [HiFi-GAN](https://github.com/jik876/hifi-gan) and [NSPP](https://github.com/YangAi520/NSPP) to implement this.
