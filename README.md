@@ -41,7 +41,7 @@ python inference_16k.py --checkpoint_file [generator checkpoint file path]
 You can download the [pretrained weights](https://drive.google.com/drive/folders/1IIYTf2zbJWzelu4IftKD6ooHloJ8mnZF?usp=share_link) we provide and move all the files to the `checkpoints` directory.
 <br>
 Generated wav files are saved in `generated_files` by default.
-You can change the path by adding `--output_dir` option.<br>
+You can change the path by adding `--output_dir` option.
 Here is an example:
 ```
 python inference_16k.py --checkpoint_file ../checkpoints/2kto16k/g_2kto16k --output_dir ../generated_files/2kto16k
