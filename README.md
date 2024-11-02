@@ -61,7 +61,7 @@ python inference_16k.py --checkpoint_file ../checkpoints/2kto16k/g_2kto16k --out
 ## Comparison with other speech BWE methods
 ### 2k/4k/8kHz to 16kHz
 <p align="center">
-<img src="Figures/table_16k.png" alt="comparison" width="80%"/>
+<img src="Figures/table_16k.png" alt="comparison" width="90%"/>
 </p>
 
 ### 8k/12k/16/24kHz to 16kHz
