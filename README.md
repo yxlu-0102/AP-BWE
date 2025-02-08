@@ -78,6 +78,8 @@ We referred to [HiFi-GAN](https://github.com/jik876/hifi-gan) and [NSPP](https:/
   title={Towards high-quality and efficient speech bandwidth extension with parallel amplitude and phase prediction},
   author={Lu, Ye-Xin and Ai, Yang and Du, Hui-Peng and Ling, Zhen-Hua},
   journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  volume={33},
+  pages={236--250},
   year={2024}
 }
 
