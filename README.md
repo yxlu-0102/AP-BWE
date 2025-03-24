@@ -64,7 +64,7 @@ python inference_16k.py --checkpoint_file ../checkpoints/2kto16k/g_2kto16k --out
 <img src="Figures/table_16k.png" alt="comparison" width="90%"/>
 </p>
 
-### 8k/12k/16/24kHz to 16kHz
+### 8k/12k/16/24kHz to 48kHz
 <p align="center">
 <img src="Figures/table_48k.png" alt="comparison" width="100%"/>
 </p>
