@@ -1,0 +1,2 @@
+The weights for this model are licensed under the MIT License.
+You can use, modify, and distribute the weights freely as long as you comply with the terms of the MIT License.
