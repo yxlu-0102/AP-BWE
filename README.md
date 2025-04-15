@@ -13,6 +13,10 @@ Notably, to our knowledge, AP-BWE is the first to achieve the direct extension o
 
 **We provide our implementation as open source in this repository. Audio samples can be found at the [demo website](http://yxlu-0102.github.io/AP-BWE).**
 
+## License
+
+The code in this repository is licensed under the MIT License.<br>
+The weights for this model are stored in Google Drive. You can access and use the weights under the same MIT License. Please refer to the `weights_LICENSE.txt` for more details on the licensing.
 
 ## Pre-requisites
 0. Python >= 3.9.
